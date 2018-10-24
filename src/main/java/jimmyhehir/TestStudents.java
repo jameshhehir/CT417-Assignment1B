@@ -20,22 +20,16 @@ public class TestStudents
         EE443.addStudent(allstudents.get(0)); EE443.addStudent(allstudents.get(2)); 
         EE443.addStudent(allstudents.get(3)); EE443.addStudent(allstudents.get(4)); 
         EE443.addStudent(allstudents.get(5)); EE443.addStudent(allstudents.get(6)); 
-        EE443.addStudent(allstudents.get(8)); EE443.addStudent(allstudents.get(9)); 
         
         EE451.addStudent(allstudents.get(0)); EE451.addStudent(allstudents.get(2)); 
         EE451.addStudent(allstudents.get(3)); EE451.addStudent(allstudents.get(4)); 
         EE451.addStudent(allstudents.get(5)); EE451.addStudent(allstudents.get(6)); 
-        EE451.addStudent(allstudents.get(8)); EE451.addStudent(allstudents.get(9)); 
         
         CT417.addStudent(allstudents.get(3)); CT417.addStudent(allstudents.get(4)); 
         CT417.addStudent(allstudents.get(5)); CT417.addStudent(allstudents.get(6)); 
-        CT417.addStudent(allstudents.get(8)); CT417.addStudent(allstudents.get(9)); 
-        CT417.addStudent(allstudents.get(1)); CT417.addStudent(allstudents.get(7)); 
         
         CT475.addStudent(allstudents.get(3)); CT475.addStudent(allstudents.get(4)); 
         CT475.addStudent(allstudents.get(5)); CT475.addStudent(allstudents.get(6)); 
-        CT475.addStudent(allstudents.get(8)); CT475.addStudent(allstudents.get(9)); 
-        CT475.addStudent(allstudents.get(1)); CT475.addStudent(allstudents.get(7));
 
         CS.addModule(CT475); CS.addModule(CT417); 
         ECE.addModule(EE451); ECE.addModule(CT475); ECE.addModule(CT417); ECE.addModule(EE443);
