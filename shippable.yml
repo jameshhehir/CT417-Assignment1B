@@ -1,0 +1,17 @@
+language: java
+
+jdk: oraclejdk8
+
+build:
+  cache: true
+  cache_dir_list:
+    - /root/.m2
+    
+script:
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+  - shippable retry mvn install
+  - cp -r target shippable/codecoverage
+
+notifications:
+   email: false
